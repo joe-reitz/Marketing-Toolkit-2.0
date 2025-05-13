@@ -11,8 +11,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useToast } from "@/hooks/use-toast"
 
 const regions = [
-  { value: "na", label: "North America" },
-  { value: "eu", label: "Europe" },
+  { value: "namer", label: "North America" },
+  { value: "emea", label: "Europe" },
   { value: "apac", label: "Asia Pacific" },
   { value: "latam", label: "Latin America" },
   { value: "mea", label: "Middle East & Africa" },
