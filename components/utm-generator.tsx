@@ -23,7 +23,7 @@ const utmSources = [
   "other",
 ]
 
-const utmMediums = ["cpc", "organic", "social", "email", "display", "affiliate", "referral", "video", "banner", "other"]
+const utmMediums = ["paidsearch", "paidsocial", "organic", "social", "email", "display", "affiliate", "referral", "video", "banner", "other"]
 
 export default function UtmGenerator() {
   const { toast } = useToast()
